@@ -1,0 +1,17 @@
+C:\Aspdotnet\Net development\source\RentalBike\bin\Debug\net6.0-windows\RentalBike.exe
+C:\Aspdotnet\Net development\source\RentalBike\bin\Debug\net6.0-windows\RentalBike.deps.json
+C:\Aspdotnet\Net development\source\RentalBike\bin\Debug\net6.0-windows\RentalBike.runtimeconfig.json
+C:\Aspdotnet\Net development\source\RentalBike\bin\Debug\net6.0-windows\RentalBike.dll
+C:\Aspdotnet\Net development\source\RentalBike\bin\Debug\net6.0-windows\RentalBike.pdb
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.csproj.AssemblyReference.cache
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.Form1.resources
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.csproj.GenerateResource.cache
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.AssemblyInfoInputs.cache
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.AssemblyInfo.cs
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.csproj.CoreCompileInputs.cache
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.dll
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\refint\RentalBike.dll
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.pdb
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\RentalBike.genruntimeconfig.cache
+C:\Aspdotnet\Net development\source\RentalBike\obj\Debug\net6.0-windows\ref\RentalBike.dll

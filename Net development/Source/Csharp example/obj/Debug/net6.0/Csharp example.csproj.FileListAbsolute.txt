@@ -1,0 +1,15 @@
+C:\Users\sya-r\source\repos\Csharp example\bin\Debug\net6.0\Csharp example.exe
+C:\Users\sya-r\source\repos\Csharp example\bin\Debug\net6.0\Csharp example.deps.json
+C:\Users\sya-r\source\repos\Csharp example\bin\Debug\net6.0\Csharp example.runtimeconfig.json
+C:\Users\sya-r\source\repos\Csharp example\bin\Debug\net6.0\Csharp example.dll
+C:\Users\sya-r\source\repos\Csharp example\bin\Debug\net6.0\Csharp example.pdb
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.csproj.AssemblyReference.cache
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.AssemblyInfoInputs.cache
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.AssemblyInfo.cs
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.csproj.CoreCompileInputs.cache
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.dll
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\refint\Csharp example.dll
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.pdb
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\Csharp example.genruntimeconfig.cache
+C:\Users\sya-r\source\repos\Csharp example\obj\Debug\net6.0\ref\Csharp example.dll
