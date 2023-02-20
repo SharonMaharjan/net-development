@@ -1,0 +1,20 @@
+﻿@{
+    var banners = new List<String>
+    {
+        "bannerRaces.jpg","bannerRiders.jpg","bannerTeams.jpg","bannerTickets.jpg"
+    };
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>@ViewData["Title"] - MotoGP</title>
+    <link rel="stylesheet" href="~/css/site.css"/>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

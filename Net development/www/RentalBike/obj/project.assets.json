@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aspdotnet\\net-development\\Net development\\Source\\RentalBike\\RentalBike.csproj",
+      "projectUniqueName": "C:\\Aspdotnet\\net-development\\Net development\\www\\RentalBike\\RentalBike.csproj",
       "projectName": "RentalBike",
-      "projectPath": "C:\\Aspdotnet\\net-development\\Net development\\Source\\RentalBike\\RentalBike.csproj",
+      "projectPath": "C:\\Aspdotnet\\net-development\\Net development\\www\\RentalBike\\RentalBike.csproj",
       "packagesPath": "C:\\Users\\sya-r\\.nuget\\packages\\",
-      "outputPath": "C:\\Aspdotnet\\net-development\\Net development\\Source\\RentalBike\\obj\\",
+      "outputPath": "C:\\Aspdotnet\\net-development\\Net development\\www\\RentalBike\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

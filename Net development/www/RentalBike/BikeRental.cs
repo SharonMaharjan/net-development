@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace RentalBike
 {
    
+    public class BikeRental
+    {
+
+    }
     internal class BikeRental
     {
         List<T> OverviewRentals = new List<T>();
