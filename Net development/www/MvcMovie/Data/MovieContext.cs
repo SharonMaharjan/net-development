@@ -9,8 +9,8 @@ namespace MvcMovie.Data
 		{
 		}
 
-		public DbSet<Movie> Movies;
-		public DbSet<Rating> Ratings;
+		public DbSet<Movie> Movies { get; set; }
+		public DbSet<Rating> Ratings { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
