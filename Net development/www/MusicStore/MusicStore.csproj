@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>annotations</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-MusicStore-6E385855-BF6F-4CE3-B563-497041459C10</UserSecretsId>
+    <UserSecretsId>aspnet-MusicStore-93A3CC06-6798-4263-AD04-371F262D0CDE</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
