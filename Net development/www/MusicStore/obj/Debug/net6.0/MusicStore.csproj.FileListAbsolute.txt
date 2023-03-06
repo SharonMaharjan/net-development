@@ -69,3 +69,4 @@ C:\Aspdotnet\net-development\Net development\www\MusicStore\obj\Debug\net6.0\ref
 C:\Aspdotnet\net-development\Net development\www\MusicStore\obj\Debug\net6.0\MusicStore.pdb
 C:\Aspdotnet\net-development\Net development\www\MusicStore\obj\Debug\net6.0\MusicStore.genruntimeconfig.cache
 C:\Aspdotnet\net-development\Net development\www\MusicStore\obj\Debug\net6.0\ref\MusicStore.dll
+C:\Aspdotnet\net-development\Net development\www\MusicStore\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
