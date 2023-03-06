@@ -5,7 +5,6 @@
 @{
     ViewData["Title"] = "Create";
     var ratings = (IEnumerable < SelectListItem >) ViewData["Ratings"];
-    var genres = (IEnumerable < SelectListItem >) ViewData["Movies"];
 
 }
 
@@ -17,7 +16,11 @@
     <label asp-for="RatingID">@Html.DisplayNameFor(model => model.Rating)</label>
     <select asp-for="RatingID" asp-items="ratings"></select>
     <br />
-
-
+     <label asp-for="ReleaseDate">@Html.DisplayNameFor(model => model.ReleaseDate)</label>
+    <input asp-for="ReleaseDate" />
+    <br />
+     <label asp-for="Genre">@Html.DisplayNameFor(model => model.Genre)</label>
+    <input asp-for="Genre" />
+    <br />
     <input type="submit" value="Create" />
 </form>

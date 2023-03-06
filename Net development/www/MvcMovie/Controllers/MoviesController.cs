@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using MvcMovie.Models;
+using MvcMovie.Models.ViewModels;
 
 namespace MvcMovie.Controllers
 {
@@ -15,10 +16,21 @@ namespace MvcMovie.Controllers
             _context = context;
         }
 
-        public IActionResult List()
+        public IActionResult List(int ratingID = 0)
         {
-            var movies = _context.Movies.OrderBy(m => m.Title);
-            return View(movies.ToList());
+            var listMoviesVM = new ListMoviesViewModel();
+            if(ratingID != 0)
+            {
+                return View(_context.Movies.Where(m=>m.RatingID == ratingID).OrderBy(m=>m.Title).ToList());
+            }
+            else
+            {
+                return View(_context.Movies.OrderBy(m=>m.Title).ToList());
+            }
+            listMoviesVM.Ratings = new SelectList(_context.Ratings.OrderBy(r => r.Name),
+                "RatingID", "Name");
+            listMoviesVM.ratingID = ratingID;
+            return View(listMoviesVM);
         }
 
         public IActionResult Details(int id)
@@ -28,22 +40,23 @@ namespace MvcMovie.Controllers
                 .SingleOrDefault(m => m.MovieID == id);
             return View(movie);
         }
+
         //Get:Movies/Create
         public IActionResult Create()
         {
-            ViewData["Ratings"] = new SelectList(
-                _context.Ratings.OrderBy(r => r.Name),
+            ViewData["Ratings"] = new SelectList(_context.Ratings.OrderBy(r => r.Name),
                 "RatingID",
                 "Name");
        
             return View();
         }
+
         //Post :Movies/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("RatingID,Name,Title,Genre")]Movie movie)
+        public IActionResult Create([Bind("ReleaseDate,Genre,Title,RatingID")]Movie movie)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _context.Add(movie);
                 _context.SaveChanges();
@@ -51,7 +64,6 @@ namespace MvcMovie.Controllers
             }
             return View(movie);
         }
-        
-
+       
     }
 }

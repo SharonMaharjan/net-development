@@ -6,8 +6,10 @@ namespace MvcMovie.Models
 	public class Movie
 	{
 		public int MovieID { get; set; }
+
 		[Display(Name = "Film Title")]
 		public string Title { get; set; }
+
 		[Display(Name = "Release Date")]
 		[DataType(DataType.Date)]
 		[DisplayFormat(ApplyFormatInEditMode=true, DataFormatString= "{0:dd/MM/yyyy}")]
