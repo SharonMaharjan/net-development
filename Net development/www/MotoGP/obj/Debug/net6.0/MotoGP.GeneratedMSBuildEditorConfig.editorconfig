@@ -31,6 +31,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Aspdotnet/net-development/Net development/www/MotoGP/Views/Info/BuildMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xCdWlsZE1hcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MotoGP/Views/Info/ListRaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xMaXN0UmFjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MotoGP/Views/Info/ShowRace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xTaG93UmFjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aspdotnet/net-development/Net development/www/MotoGP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
