@@ -55,6 +55,7 @@ namespace ContosoUniversity.Areas.Admin.Controllers
             ViewData["CourseID"] = 
                 new SelectList(_context.Courses, "CourseID", "Title");
             ViewData["StudentID"] = new SelectList(_context.Students, "ID", "Name");
+            ViewData["DefaultGrade"] = HttpContext.Session.GetString("DefaultGrade");
             return View();
         }
 

@@ -20,6 +20,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
                         .AddDefaultTokenProviders()
                         .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -42,6 +44,7 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "areaRoute",
