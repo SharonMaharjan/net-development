@@ -1,11 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MusicStore.Data;
 using MusicStore.Models;
 using System.Diagnostics;
 
 namespace MusicStore.Controllers
 {
     public class HomeController : Controller
+        
     {
+        //private readonly StoreContext _context;
+        //public HomeController(StoreContext context)
+        //{
+        //    _context = context;
+        //}
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -15,6 +22,7 @@ namespace MusicStore.Controllers
 
         public IActionResult Index()
         {
+            //_context.Albums.OrderBy(a => Guid.NewGuid()).Take(6);
             return View();
         }
 

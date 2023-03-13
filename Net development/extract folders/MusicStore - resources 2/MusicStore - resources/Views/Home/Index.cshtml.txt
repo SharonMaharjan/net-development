@@ -1,9 +1,4 @@
-﻿@model IEnumerable<MusicStore.Models.Album>
-@{
-    ViewData["Title"] = "Home Page";
-}
-<img src="~/images/logo.png"></img>
-@*<ul class="row list-unstyled" id="album-list">
+<ul class="row list-unstyled" id="album-list">
     @foreach (var album in Model)
     {
         <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 container">
@@ -14,4 +9,4 @@
             </a>
         </li>
     }
-</ul>*@
+</ul>

@@ -8,5 +8,10 @@ namespace MusicStore.Controllers
         {
             return View();
         }
+
+        public IActionResult ListGenres()
+        {
+            return View();
+        }
     }
 }
