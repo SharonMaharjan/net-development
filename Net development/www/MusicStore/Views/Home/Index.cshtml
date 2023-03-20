@@ -2,6 +2,12 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+@using MusicStore.Helpers
+<a asp-controller="Store" asp-action="Details" asp-route-id="@Album.AlbumID">
+    <img alt="@album.Title" src="/content/@album.AlbumArtUrl" width="100"/>
+    <br/>&nbsp;</br>
+    <div id="title">@MyHelper.Truncate(album.Title,20)</div>
+</a>
 <img src="~/images/logo.png"></img>
 @*<ul class="row list-unstyled" id="album-list">
     @foreach (var album in Model)
