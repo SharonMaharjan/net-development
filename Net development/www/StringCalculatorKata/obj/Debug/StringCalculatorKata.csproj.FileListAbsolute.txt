@@ -1,0 +1,6 @@
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\bin\Debug\StringCalculatorKata.dll
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\bin\Debug\StringCalculatorKata.pdb
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\obj\Debug\StringCalculatorKata.csproj.AssemblyReference.cache
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\obj\Debug\StringCalculatorKata.csproj.CoreCompileInputs.cache
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\obj\Debug\StringCalculatorKata.dll
+C:\Aspdotnet\net-development\Net development\www\StringCalculatorKata\obj\Debug\StringCalculatorKata.pdb

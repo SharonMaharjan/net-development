@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "24fIulJLYrz5PMR7SLlaRWenlzV7nmaZjXjalhC5QpOS0iYRXDhJsZK9N+UAd5SCbjDw6K0Q0mR7iZ/MkgQcMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Aspdotnet\\net-development\\Net development\\www\\DI_Pattern - start\\DI_Pattern - start\\DI_Pattern_Good\\DI_Pattern_Good.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sya-r\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
