@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<implementations>
+  <implementation>
+    <interface>ExerciseDI_FeedReader.IFeedService,ExerciseDI_FeedReader</interface>
+    <instance>ExerciseDI_FeedReader.BlogFeedReader, ExerciseDI_FeedReader</instance>
+  </implementation>
+  <implementation>
+    <interface>ExerciseDI_FeedReader.IFeedService,ExerciseDI_FeedReader</interface>
+    <instance>ExerciseDI_FeedReader.YouTubeFeedReader, ExerciseDI_FeedReader</instance>
+  </implementation>
+  <implementation>
+    <interface>ExerciseDI_FeedReader.IFeedService,ExerciseDI_FeedReader</interface>
+    <instance>ExerciseDI_FeedReader.PodcastFeedReader, ExerciseDI_FeedReader</instance>
+  </implementation>
+</implementations>

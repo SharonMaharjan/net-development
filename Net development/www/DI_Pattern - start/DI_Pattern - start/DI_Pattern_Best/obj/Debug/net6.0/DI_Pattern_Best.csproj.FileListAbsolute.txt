@@ -17,3 +17,22 @@ C:\Data\.NET Development\WT\Design Patterns\Applications\DI_Pattern\DI_Pattern_B
 C:\Data\.NET Development\WT\Design Patterns\Applications\DI_Pattern\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.genruntimeconfig.cache
 C:\Data\.NET Development\WT\Design Patterns\Applications\DI_Pattern\DI_Pattern_Best\obj\Debug\net6.0\ref\DI_Pattern_Best.dll
 C:\Data\.NET Development\WT\Design Patterns\Applications\DI_Pattern\DI_Pattern_Best\bin\Debug\net6.0\config\di_configuration.xml
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\config\di_configuration.xml
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\DI_Pattern_Best.exe
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\DI_Pattern_Best.deps.json
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\DI_Pattern_Best.runtimeconfig.json
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\DI_Pattern_Best.dll
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\DI_Pattern_Best.pdb
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.csproj.AssemblyReference.cache
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.AssemblyInfoInputs.cache
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.AssemblyInfo.cs
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.csproj.CoreCompileInputs.cache
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.csproj.CopyComplete
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.dll
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\refint\DI_Pattern_Best.dll
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.pdb
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\DI_Pattern_Best.genruntimeconfig.cache
+C:\Aspdotnet\net-development\Net development\www\DI_Pattern - start\DI_Pattern - start\DI_Pattern_Best\obj\Debug\net6.0\ref\DI_Pattern_Best.dll
