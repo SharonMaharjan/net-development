@@ -14,9 +14,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 	options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddScoped<IRepository<Movie>, GenericRepository<Movie>>();
-builder.Services.AddScoped<IRepository<Rating>, GenericRepository<Rating>>();
-
+//builder.Services.AddScoped<IRepository<Movie>, GenericRepository<Movie>>();
+//builder.Services.AddScoped<IRepository<Rating>, GenericRepository<Rating>>();
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 	.AddEntityFrameworkStores<ApplicationDbContext>();

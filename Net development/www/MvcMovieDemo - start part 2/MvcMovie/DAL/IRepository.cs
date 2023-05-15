@@ -19,7 +19,7 @@ namespace MvcMovie.DAL
 
         void Update(T obj);
 
-        void Save();
+        //void Save();
 
     }
 }

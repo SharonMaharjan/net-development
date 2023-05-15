@@ -10,20 +10,26 @@ namespace MvcMovie.Controllers
 {
 	public class MoviesController : Controller
 	{
-		private IRepository<Movie> movieRepository;
-		private IRepository<Rating> ratingRepository;
+		private IUnitOfWork _uow;
 
-		public MoviesController(IRepository<Movie> movieRepository,IRepository<Rating> ratingRepository)
+		//private IRepository<Movie> movieRepository;
+		//private IRepository<Rating> ratingRepository;
+
+		public MoviesController(IUnitOfWork uow)
 		{
-			this.movieRepository = movieRepository;
-			this.ratingRepository = ratingRepository;
-
-            
+			_uow = uow;
 		}
+		//public MoviesController(IRepository<Movie> movieRepository,IRepository<Rating> ratingRepository)
+		//{
+		//	this.movieRepository = movieRepository;
+		//	this.ratingRepository = ratingRepository;
+
+
+		//}
 
 		//public MoviesController(MovieContext context)
 		//{
-  //          movieRepository = new GenericRepository<Movie>(context);
+		//          movieRepository = new GenericRepository<Movie>(context);
 		//	ratingRepository = new GenericRepository<Rating>(context);
 
 		//}
@@ -34,7 +40,7 @@ namespace MvcMovie.Controllers
 
 			if (ratingID != 0)
 			{
-			listMoviesVM.Movies = movieRepository.Get(
+			listMoviesVM.Movies = _uow.MovieRepository.Get(
 				filter: m => m.RatingID == ratingID,
 				orderBy: m => m.OrderBy(m => m.Title)).ToList();
 					
@@ -42,12 +48,12 @@ namespace MvcMovie.Controllers
 			}
 			else
 			{
-				listMoviesVM.Movies = movieRepository.Get(
+				listMoviesVM.Movies = _uow.MovieRepository.Get(
 					orderBy: m=>m.OrderBy(x => x.Title)).ToList();
 			}
 
 			listMoviesVM.Ratings =
-				new SelectList(ratingRepository.Get(
+				new SelectList(_uow.RatingRepository.Get(
 					
 					orderBy: m=>m.OrderBy(x => x.Name)).ToList(),
 					"RatingID", "Name");
@@ -63,7 +69,7 @@ namespace MvcMovie.Controllers
 			//var movie = _context.Movies
 							//.Include(m => m.Rating)
 							//.SingleOrDefault(m => m.MovieID == id);
-			var movie = movieRepository.Get(
+			var movie = _uow.MovieRepository.Get(
 				filter: x => x.MovieID == id,
 				includes:x => x.Rating).FirstOrDefault();
 				
@@ -74,7 +80,7 @@ namespace MvcMovie.Controllers
 		public IActionResult Create()
 		{
 			ViewData["Ratings"] =
-				new SelectList(ratingRepository.GetAll().OrderBy(r => r.Name),
+				new SelectList(_uow.RatingRepository.GetAll().OrderBy(r => r.Name),
 							   "RatingID",
 							   "Name");
 
@@ -88,12 +94,46 @@ namespace MvcMovie.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				ratingRepository.Insert(rating);
-				ratingRepository.Save();
+				_uow.RatingRepository.Insert(rating);
+				_uow.Save();
 				return RedirectToAction("List");
 			}
 			return View(rating);
 		}
 
+		//Get: Movies/Add
+
+		public IActionResult Add()
+        {
+			var addMovieVM = new AddMovieViewModel();
+			addMovieVM.Movie = new Movie();
+
+
+			return View(addMovieVM);
+        }
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult Add([Bind("Movie,Code,Name")]AddMovieViewModel model)
+        {
+            try
+            {
+				if(ModelState.IsValid)
+                {
+					var rating = _uow.RatingRepository.Get
+						(filter:r => r.Code==model.Code && r.Name == model.Name).FirstOrDefault();
+
+					if (rating == null)
+                    {
+						rating = new Rating { Code = model.Code,Name = model.Name };
+						_uow.RatingRepository.Insert(rating);
+                    }
+					model.Movie.Rating = rating;
+
+					_uow.MovieRepository.Insert(model.Movie);
+					_uow.Save();
+                }
+            }
+        }
 	}
 }

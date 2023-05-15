@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MyShop.Domain",
+    "\\MyShop.Domain\\MyShop.Domain",
+    "\\MyShop.Infrastructure",
+    "\\MyShop.Infrastructure\\MyShop.Infrastructure",
+    "\\MyShop.Tests",
+    "\\MyShop.Tests\\MyShop.Tests",
+    "\\MyShop.Web"
+  ],
+  "SelectedNode": "\\MyShop.Tests\\MyShop.Tests\\OrderControllerTests.cs",
+  "PreviewInSolutionExplorer": false
+}

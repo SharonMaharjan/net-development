@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MvcMovie.Models.ViewModels.AddMovieViewModel
+@{
+
+    ViewData["Title"]="Add";
+}
+<form asp-action="Add">
+    <table>
+        <tr>
+            <td>
+                <label asp-for="Movie.Title">
+                    @Html.DisplayNameFor(model=>model.Movie.Title)
+                </label>
+            </td>
+            <td>
+                <input asp-for="Movie.Title"/>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <label asp-for="Movie.Genre">
+                @Html.DisplayNameFor(model=>model.Movie.Genre)
+            </label>
+
+        </td>
+        <td>
+            <input asp-for="Movie.Genre"/>
+
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Movie.ReleaseDate">
+                    @Html.DisplayNameFor(model=>model.Movie.ReleaseDate)
+                </label>
+            </td>
+            <td>
+                <input asp-for="Movie.ReleaseDate"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Code">
+                    @Html.DisplayNameFor(model=>model.Code)
+                </label>
+            </td>
+            <td>
+                <input asp-for="Code"/>
+            </td>
+        </tr>
+    </table>
+
+</form>
