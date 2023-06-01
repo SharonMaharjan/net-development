@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+    ViewData["Title"] = "Menu - MotoGP";
+    int bannerNumber = (int)ViewData["BannerNr"];
+    string imagePath = Url.Content("~/images/banners/banner" + bannerNumber + ".jpg");
+}
+<style>
+    .centered{
+        position :fixed;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .image-container a {
+            flex-basis: 50%;
+            text-align: center;
+        }
+</style>
+<img src="@imagePath" width=100%/><br />
+<div class="image-container">
+<a asp-controller="Info" asp-action="ListRaces" style="width: 200px; height: 200px;">
+    <img src="~/images/banners/races.png" /
+    ></a>
+<a asp-controller="Info" asp-action="ListTeams" style="width: 200px; height: 200px;">
+    <img src="~/images/banners/teams.png" />
+    </a>
+<a asp-controller="Info" asp-action="ListRiders" style="width: 200px; height: 200px;">
+    <img src="~/images/banners/riders.png" />
+    </a>
+<a asp-controller="Shop" asp-action="OrderTicket" style="width: 200px; height: 200px;"><img src="~/images/banners/tickets.png" />
+</a>
+</div>

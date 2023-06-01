@@ -13,7 +13,7 @@ namespace MvcMoviePractice.Controllers
         //get method of hello world welcome
         public IActionResult Welcome(string name, int numTimes=3)
         {
-            ViewData["Message"] = "Hello" + name;
+            ViewData["Message"] = "Hello " + name;
             ViewData["NumTimes"] = numTimes;
 
             return View();

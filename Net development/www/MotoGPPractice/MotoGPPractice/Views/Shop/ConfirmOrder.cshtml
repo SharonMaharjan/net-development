@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Confirmation - MotoGP";
+    var currentDate = DateTime.Now.ToString("dd/mm/yyyy");
+}
+<h1>Confirmation</h1>
+
+<p>Thank you for ordering tickets for the race. Your booking is registered on  <strong>@currentDate</strong>. We will send the tickets as soon as possible.</p>
+<a asp-controller="Home" asp-action="Index">Back</a>
