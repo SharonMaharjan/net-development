@@ -4,7 +4,7 @@ namespace MotoGPPractice.Models
 {
     public class Ticket
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
         public int TicketID { get; set; }
         public string Name { get; set; }
 

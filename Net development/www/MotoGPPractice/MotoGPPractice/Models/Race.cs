@@ -4,7 +4,7 @@ namespace MotoGPPractice.Models
 {
     public class Race
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
         public int RaceID { get; set; }
         public string Name { get; set; }
 
@@ -18,6 +18,6 @@ namespace MotoGPPractice.Models
         public int X { get; set; }
         public int Y { get; set; }
 
-        public ICollection<Ticket>? Tickets { get; set; }
+        public ICollection<Ticket> Tickets { get; set; }
     }
 }

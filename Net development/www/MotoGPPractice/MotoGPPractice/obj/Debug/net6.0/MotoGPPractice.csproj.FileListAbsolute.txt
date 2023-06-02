@@ -69,3 +69,8 @@ C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\o
 C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\MotoGPPractice.pdb
 C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\MotoGPPractice.genruntimeconfig.cache
 C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\ref\MotoGPPractice.dll
+C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\staticwebassets\msbuild.MotoGPPractice.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\staticwebassets\msbuild.build.MotoGPPractice.props
+C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MotoGPPractice.props
+C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MotoGPPractice.props
+C:\Aspdotnet\net-development\Net development\www\MotoGPPractice\MotoGPPractice\obj\Debug\net6.0\staticwebassets.pack.json

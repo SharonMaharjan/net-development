@@ -4,7 +4,7 @@ namespace MotoGPPractice.Models
 {
     public class Rider
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        
         public int RiderID { get; set; }
 
         public string LastName { get; set; }
