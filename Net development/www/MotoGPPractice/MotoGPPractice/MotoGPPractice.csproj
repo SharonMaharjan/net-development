@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>annotations</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-MotoGPPractice-59ba5d3b-c2a0-4358-9141-bf1cfa72d48c</UserSecretsId>
   </PropertyGroup>

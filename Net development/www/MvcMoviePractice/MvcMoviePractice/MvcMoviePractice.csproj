@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>annotations</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-MvcMoviePractice-13e58caa-c2a1-4ec5-b1d7-2d329e2bd1cc</UserSecretsId>
   </PropertyGroup>

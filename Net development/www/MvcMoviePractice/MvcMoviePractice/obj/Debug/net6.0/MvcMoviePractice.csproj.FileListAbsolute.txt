@@ -58,11 +58,6 @@ C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePracti
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\MvcMoviePractice.MvcApplicationPartsAssemblyInfo.cache
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\MvcMoviePractice.RazorAssemblyInfo.cache
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\MvcMoviePractice.RazorAssemblyInfo.cs
-C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets\msbuild.MvcMoviePractice.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets\msbuild.build.MvcMoviePractice.props
-C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MvcMoviePractice.props
-C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MvcMoviePractice.props
-C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets.build.json
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\staticwebassets.development.json
 C:\Aspdotnet\net-development\Net development\www\MvcMoviePractice\MvcMoviePractice\obj\Debug\net6.0\scopedcss\bundle\MvcMoviePractice.styles.css
