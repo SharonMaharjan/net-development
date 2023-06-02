@@ -1,10 +1,34 @@
-﻿@*
+﻿@using System.Globalization;
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model IEnumerable<MotoGPPractice.Models.Race>
 @{
-    ViewData["Title"] = "Races - MotoGP";
-    ViewData["BannerNr"] = 0;
+    ViewData["Title"] = "Races";
+    var current_month = 0;
+    var current_month_full = "error";
 }
+@foreach(var race in Model)
+{
+    @if(race.Date.Month != current_month)
+    {
+        current_month = race.Date.Month;
+        current_month_full = race.Date.ToString("MMMM");
+        <h2>@current_month_full</h2>
+        @foreach(var raceDate in Model)
+        {
+            @if(raceDate.Date.Month == current_month)
+            {
+                <p>@(Html.DisplayFor(modelRace=>raceDate.Date))
+                    <a href="@Url.Action("ShowRace","Info",new{id=raceDate.RaceID})">
+                        @raceDate.Name
+                    </a>
+                </p>
+            }
+        }
+    }
+}
+
 
 <a asp-controller="Home" asp-action="Index">Back</a>|
 <a asp-controller="Info" asp-action="BuildMap">Races on map</a>|

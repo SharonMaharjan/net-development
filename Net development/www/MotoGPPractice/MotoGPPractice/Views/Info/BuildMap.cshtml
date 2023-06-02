@@ -1,6 +1,7 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model IEnumerable<MotoGPPractice.Models.Race>;
 @{
     ViewData["Title"] = "Races on map - MotoGP";
 
@@ -8,7 +9,7 @@
 
 <img src="~/images/banners/map.png" usemap="#raceMap" />
 <map name="raceMap">
-    @foreach (var race in Model)
+    @foreach (Race race in Model)
     {
             <area shape="circle" coords="@race.X,@race.Y,10" href="@Url.Action("ShowRace", "Info", new { id = race.RaceID })" alt="@race.Name" />
     }

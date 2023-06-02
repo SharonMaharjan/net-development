@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MotoGPPractice.Models
 {
@@ -14,6 +15,9 @@ namespace MotoGPPractice.Models
 
         public int Length { get; set; }
 
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true,
+            DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime Date { get; set; }
         public int X { get; set; }
         public int Y { get; set; }

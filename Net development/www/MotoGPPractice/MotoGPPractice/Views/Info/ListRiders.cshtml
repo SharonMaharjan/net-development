@@ -1,6 +1,22 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model IEnumerable<MotoGPPractice.Models.Rider>
+
 @{
-    ViewData["Title"] = "Riders - MotoGP";
+    ViewData["Title"] = "List of Riders";
+    
 }
+
+
+<tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <img src="@Url.Content("~/Images/Riders/" + item.Number + ".jpg")" alt="@item.RiderID" />
+                 <img src="@Url.Content("~/Images/Flags/" + item.CountryID + ".png")" alt="@item.Country" />
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.Number</td>
+            </tr>
+        }
+    </tbody>
