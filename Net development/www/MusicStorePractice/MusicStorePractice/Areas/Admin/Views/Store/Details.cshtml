@@ -1,0 +1,29 @@
+﻿@model MusicStorePractice.Models.Album
+
+@{
+    ViewData["Title"] = "Album Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h1>Album Details</h1>
+<h1>@Model.Title</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Url.Content("~/content/" + Model.AlbumArtUrl + ".png")" alt="@Model.Title" class="img-responsive" />
+    </div>
+    <div class="col-md-8">
+        <dl class="dl-horizontal">
+            <dt>Artist:</dt>
+            <dd>@Model.Artist.Name</dd>
+            <dt>Genre:</dt>
+            <dd>@Model.Genre.Name</dd>
+            <dt>Price:</dt>
+            <dd>@Model.Price.ToString("C")</dd>
+            
+        </dl>
+        <p>
+            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@Model.AlbumID">Add to Cart</a>
+        </p>
+         
+    </div>
+</div>

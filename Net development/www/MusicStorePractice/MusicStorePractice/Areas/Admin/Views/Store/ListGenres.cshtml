@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<MusicStorePractice.Models.Genre>
+@{
+    ViewData["Title"] = "Genres";
+}
+<h1>Genres</h1>
+<h1>Select</h1>
+<strong>Name</strong>
+
+<ul>
+    @foreach (var genre in Model)
+    {
+        <li>
+            <a asp-controller="Store" asp-action="ListAlbums" asp-route-genreId="@genre.GenreID">@genre.Name</a>
+        </li>
+    }
+</ul>

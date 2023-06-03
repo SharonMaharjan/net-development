@@ -15,8 +15,76 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aspdotnet\net-development\Net development\www\MusicStorePractice\MusicStorePractice
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Albums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWxidW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Albums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWxidW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Albums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWxidW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Albums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWxidW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Albums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWxidW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Artists/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Artists/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Artists/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Artists/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Artists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Store/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RvcmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Store/ListAlbums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RvcmVcTGlzdEFsYnVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Store/ListGenres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RvcmVcTGlzdEdlbnJlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/_ViewImports.cshtml]

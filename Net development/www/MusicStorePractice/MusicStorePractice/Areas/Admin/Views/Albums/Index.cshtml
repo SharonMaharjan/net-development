@@ -1,8 +1,77 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model MusicStorePractice.Models.ViewModels.ListAlbumsViewModel
+@using System.Globalization;
 @{
-    ViewData["Title"] = "Albums Index";
+    ViewData["Title"] = "Index";
 }
-<h2>@ViewData["Title"]</h2>
-<h4>Albums Index</h4>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<h1>Filter of:</h1>
+<form asp-controller="Albums" asp-action="Index" method="get">
+    <select asp-for="artistID" asp-items="Model.Artists">
+        <option value="0">-- Select an artist --</option>
+    </select>
+    <select asp-for="genreID" asp-items="Model.Genres">
+        <option value="0">-- Select a genre --</option>
+    </select>
+    <label for="titleFilter">Title:</label>
+    <input type="text" id="titleFilter" name="titleFilter" class="form-control" />
+    <input type="submit" value="Filter" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+             <th>
+                @Html.DisplayNameFor(model => model.Albums[0].Artist)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Albums[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Albums[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Albums[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Albums[0].AlbumArtUrl)
+            </th>
+           
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Albums) {
+            string imgPathAblum = "content/" + item.AlbumArtUrl + ".png";
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+            <img src=~/@imgPathAblum  />
+            
+            </td>
+            
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AlbumID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AlbumID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AlbumID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

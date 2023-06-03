@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MusicStorePractice.Data;
 using MusicStorePractice.Models;
 using System.Diagnostics;
 
@@ -7,15 +8,19 @@ namespace MusicStorePractice.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly StoreContext _context;
+        public HomeController(ILogger<HomeController> logger, StoreContext context)
         {
             _logger = logger;
+            _context = context;
         }
+        
+        
 
         public IActionResult Index()
         {
-            return View();
+            var randomAlbums = _context.Albums.OrderBy(a => Guid.NewGuid()).Take(6);
+            return View(randomAlbums);
         }
 
         public IActionResult Privacy()
