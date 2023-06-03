@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MotoGPPractice.Models.Ticket
+@{
+    ViewData["Title"] = "Edit ticket";
+}
+<form asp-action="EditTicket">
+    <input type="hidden" asp-for="TicketID"/>
+    <label asp-for="Name">@Html.DisplayNameFor(model=>model.Name)</label>
+    <span>@Html.DisplayFor(model => model.Name)</span><br />
+    <label asp-for="Email">@Html.DisplayNameFor(model=>model.Email)</label>
+    <span>@Html.DisplayFor(model => model.Email)</span><br />
+    <label asp-for="Address">@Html.DisplayNameFor(model=>model.Address)</label>
+    <span>@Html.DisplayFor(model => model.Address)</span><br />
+    <label asp-for="Country">@Html.DisplayNameFor(model=>model.Country)</label>
+    <span>@Html.DisplayFor(model => model.Country.Name)</span><br />
+    <label asp-for="Race">@Html.DisplayNameFor(model=>model.Race)</label>
+    <span>@Html.DisplayFor(model => model.Race.Name)</span><br />
+
+    <label asp-for="Number">@Html.DisplayNameFor(model=>model.Number)</label>
+    <span>@Html.DisplayFor(model => model.Number)</span><br />
+
+    <label asp-for="Paid">@Html.DisplayNameFor(model=>model.Paid)</label>
+    <input type="checkbox" asp-for="Paid"/><br/>
+    <input type="submit" value="Register"/>
+</form>

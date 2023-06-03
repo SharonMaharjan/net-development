@@ -1,15 +1,22 @@
-﻿@model IEnumerable<MvcMoviePractice.Models.Movie>
+﻿@model MvcMoviePractice.Models.ViewModels.ListMoviesViewModel
 @{
     ViewData["Title"] = "All Movies";
 }
+<form asp-controller="Movies" asp-action="List" method="get">
+    <select asp-for="ratingID" asp-items="Model.Ratings">
+        <option value="0">--Select a rating--</option>
+    </select>
+    <input type="submit" value="Filter"/>
+</form>
+<br/>
 <table>
     <tr>
-        <th>@(Html.DisplayNameFor(model=>model.Title))</th>
-        <th>@(Html.DisplayNameFor(model=>model.ReleaseDate))</th>
-        <th>@(Html.DisplayNameFor(model=>model.Genre))</th>
+        <th>@(Html.DisplayNameFor(model=>model.Movies[0].Title))</th>
+        <th>@(Html.DisplayNameFor(model=>model.Movies[0].ReleaseDate))</th>
+        <th>@(Html.DisplayNameFor(model=>model.Movies[0].Genre))</th>
 
     </tr>
-    @foreach (var item in Model)
+    @foreach (var item in Model.Movies)
     {
         <tr>
             <td>

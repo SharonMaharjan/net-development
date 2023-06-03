@@ -1,7 +1,51 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model MotoGPPractice.Models.Ticket
 @{
     ViewData["Title"] = "Order Tickets";
+    var tickets = (IEnumerable<SelectListItem>)ViewData["Tickets"]!;
+    var countries = (IEnumerable<SelectListItem>)ViewData["Countries"]!;
+    var races = (IEnumerable<SelectListItem>)ViewData["Races"]!;
 }
 <p>Please fill out following fields.</p>
+<form asp-action="OrderTicket">
+
+    <label asp-for="Name">@Html.DisplayNameFor(model=>model.Name)</label>
+    <input asp-for="Name"/>
+    <br/>
+
+    <label asp-for="Email">@Html.DisplayNameFor(model=>model.Email)</label>
+    <input asp-for="Email" />
+    <br />
+
+    <label asp-for="Address">@Html.DisplayNameFor(model=>model.Address)</label>
+    <input asp-for="Address" />
+    <br />
+
+    <label asp-for="CountryID">@Html.DisplayNameFor(model=>model.Country)</label>
+    <select asp-for="CountryID" asp-items="countries"></select>
+    <br/>
+
+    <label asp-for="RaceID">@Html.DisplayNameFor(model=>model.Race)</label>
+    @foreach(var race in races)
+    {
+        <label>
+            <input type="radio" asp-for="RaceID" value="@race.Value" />
+            @race.Text
+        </label>
+    }
+    <br />
+
+    <label asp-for="Number">@Html.DisplayNameFor(model=>model.Number)</label>
+
+    @for (int i = 1; i <= 6; i++)
+    {
+        
+            <input type="radio" asp-for="Number" value="@i" />
+            @i
+      
+    }
+    <br/>
+    <input type="submit" value="Order"/>
+</form>

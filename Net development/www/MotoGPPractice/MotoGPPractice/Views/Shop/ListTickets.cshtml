@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MotoGPPractice.Models.ViewModels.ListTicketsViewModel
+@{
+    ViewData["Title"] = "Ordered tickets";
+}
+
+<form asp-controller="Shop" asp-action="ListTickets" method="get">
+    <select asp-for="raceID" asp-items="Model.Races">
+        <option value="0">-- Select a race --</option>
+    </select>
+    <input type="submit" value="Filter"/>
+</form>
+<br />
+@if (ViewData["NoTicketsMessage"] != null)
+{
+    <p>@ViewData["NoTicketsMessage"]</p>
+}
+else if (Model.Tickets.Count > 0)
+{
+<table>
+    <tr>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].OrderDate)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Name)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Email)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Address)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Country)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Race)</th>
+        <th>@Html.DisplayNameFor(model=>model.Tickets[0].Number)</th>
+    </tr>
+    @foreach(var item in Model.Tickets)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem=>item.OrderDate)</td>
+            <td>@Html.DisplayFor(modelItem=>item.Name)</td>
+            <td>@Html.DisplayFor(modelItem=>item.Email)</td>
+            <td>@Html.DisplayFor(modelItem=>item.Address)</td>
+                <td>@Model.CountryNames[item.CountryID]</td>
+                <td>@Model.RaceIDs[item.RaceID]</td>
+            <td>@Html.DisplayFor(modelItem=>item.Number)</td>
+            <td>
+                    @if (item.Paid)
+                    {
+                                    <span>Paid</span>
+                    }
+                    else
+                    {
+                                    <a href="@Url.Action("EditTicket", "Shop", new { id = item.TicketID })">Pay</a>
+                    }
+             </td>
+        </tr>
+    }
+</table>
+}

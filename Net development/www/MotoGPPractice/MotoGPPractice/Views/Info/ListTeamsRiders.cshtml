@@ -1,0 +1,44 @@
+﻿@model List<MotoGPPractice.Models.Team>
+
+@{
+    ViewData["Title"] = "Teams & Riders";
+}
+
+<style>
+    .team-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .riders-container {
+        margin-top: 20px;
+    }
+</style>
+
+
+
+@foreach (var team in Model)
+{
+    <div>
+        <img class="team-logo" src="@Url.Content("~/Images/Teams/" + team.Logo)" alt="@team.Name" />
+        <h2>@team.Name</h2>
+
+        <div class="riders-container">
+            @if (team.Riders.Any())
+            {
+                <h3>Riders:</h3>
+                <ul>
+                    @foreach (var rider in team.Riders)
+                    {
+                        <li>@rider.FirstName @rider.LastName @rider.Number @rider.CountryID</li>
+
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>No riders available for this team.</p>
+            }
+        </div>
+    </div>
+}

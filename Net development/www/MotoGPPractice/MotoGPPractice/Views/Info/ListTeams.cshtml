@@ -1,6 +1,60 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model IEnumerable<MotoGPPractice.Models.Team>
 @{
-    ViewData["Title"] = "Teams - MotoGP";
+    ViewData["Title"] = "Teams ";
 }
+<style>
+    .team-overview {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .team-card {
+        width: 300px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+        .team-card img {
+            width: 100%;
+            height: auto;
+        }
+</style>
+
+
+<div class="team-overview">
+
+        @foreach (var item in Model)
+        {
+        <div class="team-card">
+            <tr>
+                <img src="@Url.Content("~/Images/Teams/" + item.Logo )" alt="@item.TeamID" />
+                <td>@item.Name </td>
+                @*<td>
+                    @foreach (var rider in item.Riders)
+                        @rider.FirstName
+
+                    </td>
+*@
+                </tr>
+            </div>
+        }
+   
+    @*@foreach (var team in Model)
+    {
+        <div class="team-card">
+            <img src="@Url.Content("~/Images/Teams/" + team.Logo)" alt="@team.Name" />
+            <h3>@team.Name</h3>
+            <div class="riders">
+                @foreach (var rider in team.Riders)
+                {
+                    <p>@rider.FirstName @rider.LastName</p>
+                }
+            </div>
+        </div>
+    }*@
+</div>
+<a asp-controller="Info" asp-action="ListTeamsRiders">Teams & Riders</a>|

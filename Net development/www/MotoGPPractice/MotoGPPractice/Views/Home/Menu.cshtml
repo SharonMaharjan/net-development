@@ -26,11 +26,11 @@
             text-align: center;
         }
 </style>
-<img src="@imagePath" width=100%/><br />
+<img src="@imagePath" width:100%/><br />
 <div class="image-container">
 <a asp-controller="Info" asp-action="ListRaces" style="width: 200px; height: 200px;">
-    <img src="~/images/banners/races.png" /
-    ></a>
+    <img src="~/images/banners/races.png" />
+    </a>
 <a asp-controller="Info" asp-action="ListTeams" style="width: 200px; height: 200px;">
     <img src="~/images/banners/teams.png" />
     </a>
@@ -40,3 +40,4 @@
 <a asp-controller="Shop" asp-action="OrderTicket" style="width: 200px; height: 200px;"><img src="~/images/banners/tickets.png" />
 </a>
 </div>
+<a asp-controller="Shop" asp-action="ListTickets">Admin Tickets</a>

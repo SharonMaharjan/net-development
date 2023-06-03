@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MotoGPPractice.Models
 {
@@ -20,6 +21,8 @@ namespace MotoGPPractice.Models
 
         public int Number { get; set; }
 
+        [DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true,DataFormatString="{0:dd/MM/yyyy}")]
         public DateTime OrderDate { get; set; }
 
         public bool Paid { get; set; }

@@ -53,7 +53,9 @@ namespace MvcMoviePractice.Controllers
             {
                 try
                 {
-                    _context.Update(rating);
+                    //_context.Update(rating);
+                    _context.Ratings.Attach(rating);
+                    _context.Entry(rating).Property(r=>r.Code).IsModified=true;
                     _context.SaveChanges();
                 }
                 catch (DbUpdateConcurrencyException) {
