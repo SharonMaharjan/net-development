@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rwho59++Uuev4VBehqifCy5KjUN9Z4gDu8feS2BzmpY+x/+mWu38B6RudYJMrmXum+s+YPXHwviSwwpC7om59g==",
+  "success": true,
+  "projectFilePath": "C:\\Aspdotnet\\net-development\\Net development\\www\\ExerciseDI_FeedReader - startPractice\\ExerciseDI_FeedReader\\ExerciseDI_FeedReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sya-r\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\sya-r\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bXnqTXc9R5fixIGZDm6ua0zmUfqxo8k1vNamoG9fPOXvBjplr7F1eWmEQWG/TUfll8sbo2Fy3DpB5QMhkSoioQ==",
+  "success": true,
+  "projectFilePath": "C:\\Data\\.NET Development\\WT\\Design Patterns\\2 Dependency Injection\\DI_Pattern - start\\DI_Pattern_Best\\DI_Pattern_Best.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\u0063152\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\u0063152\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\u0063152\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
