@@ -13,15 +13,14 @@
         </div>
     </div>
 </div>
-<ul class="row list-unstyled" id="album-list">
+ <ul class="row list-unstyled" id="album-list">
     @foreach (var album in Model)
     {
         <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 container">
             <a asp-controller="Store" asp-action="Details" asp-route-id="@album.AlbumID">
-             
-               <img alt="@album.Title" src="@Url.Content("~/content/" + album.AlbumArtUrl + ".png")" />
+               <img src="~/content/@album.AlbumArtUrl" alt="@album.Title" />
                 <br />&nbsp;<br />
-                <div id="title">@album.Title </div>
+                <div id="title">@album.Title</div>
             </a>
         </li>
     }

@@ -15,6 +15,8 @@ namespace ContosoUniversityPractice.Controllers
 
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("DefaultGrade", "A");
+
             return View();
         }
 

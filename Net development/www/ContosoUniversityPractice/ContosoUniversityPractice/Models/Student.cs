@@ -19,6 +19,7 @@ namespace ContosoUniversityPractice.Models
 
         public ICollection<Enrollment>? Enrollments { get;set; }
 
+        public string Email { get; set; }
         public string Name { get { return FirstMidName + ' ' + LastName; } }
     }
 }
