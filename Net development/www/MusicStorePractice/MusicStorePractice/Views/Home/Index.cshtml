@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
+@using MusicStorePractice.Helpers
 <br />
 
 <div class="text-center">
@@ -20,7 +20,7 @@
             <a asp-controller="Store" asp-action="Details" asp-route-id="@album.AlbumID">
                <img src="~/content/@album.AlbumArtUrl" alt="@album.Title" />
                 <br />&nbsp;<br />
-                <div id="title">@album.Title</div>
+                <div id="title">@MyHelper.Truncate(@album.Title,20)</div>
             </a>
         </li>
     }

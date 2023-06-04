@@ -55,6 +55,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Checkout/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Checkout/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Checkout/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Checkout/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Areas/Admin/Views/Genres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -109,6 +129,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Views/Shared/Components/CartSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFN1bW1hcnlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Views/Shared/Components/GenreMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR2VucmVNZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aspdotnet/net-development/Net development/www/MusicStorePractice/MusicStorePractice/Views/Shared/Error.cshtml]

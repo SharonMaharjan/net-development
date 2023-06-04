@@ -5,6 +5,7 @@
 @{
      ViewData["Title"] = "Albums";
 }
+@using MusicStorePractice.Helpers
 <h1>@ViewBag.GenreName Albums</h1>
 
 <ul class="row list-unstyled" id="album-list">
@@ -12,9 +13,10 @@
     {
         <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 container">
             <a asp-controller="Store" asp-action="Details" asp-route-id="@album.AlbumID">
-                <img alt="@album.Title" src="@Url.Content("~/content/" + album.AlbumArtUrl + ".png")" />
+               
+                <img alt="@album.Title" src="~/content/@album.AlbumArtUrl"/>
                 <br />&nbsp;<br />
-                <div id="title">@album.Title</div>
+                <div id="title">@MyHelper.Truncate(@album.Title,20)</div>
             </a>
         </li>
     }

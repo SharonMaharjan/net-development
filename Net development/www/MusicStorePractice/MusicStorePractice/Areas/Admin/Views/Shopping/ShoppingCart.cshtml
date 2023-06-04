@@ -21,7 +21,8 @@
                 <td>@item.Artist.Name</td>
                 <td>@item.Price</td>
                 <td>
-                    <a asp-controller="ShoppingCart" asp-action="RemoveFromCart" asp-route-id="@item.CartItemID">Remove from cart</a>
+                    <a asp-controller="ShoppingCart" asp-action="RemoveFromCart" 
+                    >Remove from cart</a>
                 </td>
             </tr>
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s/zh2qY0mqq/9fLM8Uz26z9QV1+Gzn72us8IPFZdjtA=",
+  "Hash": "3Ct0P8cP2R6uxGecq9u1oSK9z/dkkPB3WgYoak181Sg=",
   "Source": "MusicStorePractice",
   "BasePath": "_content/MusicStorePractice",
   "Mode": "Default",
@@ -4044,6 +4044,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Aspdotnet\\net-development\\Net development\\www\\MusicStorePractice\\MusicStorePractice\\wwwroot\\images\\shopping-cart.png",
+      "SourceId": "MusicStorePractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Aspdotnet\\net-development\\Net development\\www\\MusicStorePractice\\MusicStorePractice\\wwwroot\\",
+      "BasePath": "_content/MusicStorePractice",
+      "RelativePath": "images/shopping-cart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\shopping-cart.png"
     },
     {
       "Identity": "C:\\Aspdotnet\\net-development\\Net development\\www\\MusicStorePractice\\MusicStorePractice\\wwwroot\\js\\site.js",
