@@ -1,0 +1,14 @@
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\bin\Debug\net6.0\Shop.DALPractices.deps.json
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\bin\Debug\net6.0\Shop.DALPractices.runtimeconfig.json
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\bin\Debug\net6.0\Shop.DALPractices.dll
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\bin\Debug\net6.0\Shop.DALPractices.pdb
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.csproj.AssemblyReference.cache
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.AssemblyInfoInputs.cache
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.AssemblyInfo.cs
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.csproj.CoreCompileInputs.cache
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.dll
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\refint\Shop.DALPractices.dll
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.pdb
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\Shop.DALPractices.genruntimeconfig.cache
+C:\Aspdotnet\net-development\Net development\www\Shop.DALPractices\obj\Debug\net6.0\ref\Shop.DALPractices.dll
